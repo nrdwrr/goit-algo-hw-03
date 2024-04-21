@@ -15,5 +15,6 @@ try:
      print(f"кількість днів між заданою датою {date} і поточною датою  складає {get_days_from_today(date)}")
 
 except ValueError:
-    print(f"помилка формату дати {date}")
+    print(f"некоректні вхідні дані {date} спробуйте ще")
+    
 
